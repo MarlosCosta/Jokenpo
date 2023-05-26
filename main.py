@@ -1,4 +1,4 @@
-import random
+import random # Importa a biblioteca random para gerar jogadas aleatórias
 
 
 def valida_int(pergunta, min, max):
@@ -48,8 +48,8 @@ print('1 = Pedra')
 print('2 = Papel')
 print('3 = Tesoura')
 
-resultados = []
-jogadas = []
+resultados = [] # Lista para armazenar os resultados das partidas
+jogadas = [] # Lista para armazenar as jogadas de cada partida
 pontos_jogador_um = 0
 pontos_jogador_dois = 0
 empate = 0
